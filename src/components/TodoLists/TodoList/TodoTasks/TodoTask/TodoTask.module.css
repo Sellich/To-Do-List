@@ -1,0 +1,45 @@
+.task{
+   display: flex;
+   background-color: #DCDCDC;
+   margin: 2px;
+   padding: 5px;
+   width: 40vw;
+   justify-content: space-between;
+}
+.task:hover{
+   background-color: #cccccc;
+}
+.close{
+   height: 5px;
+   width: 5px;
+}
+.menu{
+   display: flex;
+}
+.img{
+   display: flex;
+   align-items: start;
+}
+
+@media screen and (max-width: 1500px){
+   .task{
+      width: 50vw;
+      height: 5vh;
+   }
+}
+
+@media screen and (max-width: 1000px){
+   .task{
+      width: 60vw;
+      height: 5vh;
+   }
+}
+
+@media screen and (max-width: 600px){
+   .task{
+      width: 70vw;
+      height: 5vh;
+   }
+}
+
+
