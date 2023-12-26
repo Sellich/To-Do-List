@@ -1,33 +1,40 @@
-.login{
-   display: flex;
-   flex-direction: column;
+.login {
+  display: flex;
+  flex-direction: column;
 }
-.header{
-   display: flex;
-   justify-content: center;
+
+.header {
+  display: flex;
+  justify-content: center;
 }
-.form{
-   display: flex;
-   flex-direction: column;
+
+.form {
+  display: flex;
+  flex-direction: column;
 }
-.padding{
-   padding: 10px 0 0 0;
-   display: flex;
-   justify-content: space-between;
+
+.padding {
+  padding: 10px 0 0 0;
+  display: flex;
+  justify-content: space-between;
 }
-.input{
-   margin: 0 0 0 10px;
+
+.input {
+  margin: 0 0 0 10px;
 }
-.btn{
-   border: none;
-   width: 100px;
-   justify-items: center;
+
+.btn {
+  border: none;
+  width: 100px;
+  justify-items: center;
 }
-.btn:hover{
-   background-color: grey;
+
+.btn:hover {
+  background-color: grey;
 }
-.btnContainer{
-   display: flex;
-   justify-content: center;
-   padding-top: 10px;
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
 }

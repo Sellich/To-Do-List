@@ -1,53 +1,59 @@
-.todoList_wrapper:hover{
-   background-color: grey;
+.todoList_wrapper:hover {
+  background-color: grey;
 
 }
-.todoList{
-   background-color: #D3D3D3;
-   margin: 2px;
-   display: grid;
-   grid-template-areas: "t i";
-   grid-template-columns: 100fr 1fr;
-   width: 30vw;
-   height: 5vh;
+
+.todoList {
+  background-color: #D3D3D3;
+  margin: 2px;
+  display: grid;
+  grid-template-areas: "t i";
+  grid-template-columns: 100fr 1fr;
+  width: 30vw;
+  height: 5vh;
 }
-.img{
-   display: flex;
-   align-items: start;
-   justify-content: end;
-   padding: 2px;
-   grid-area: i;
+
+.img {
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  padding: 2px;
+  grid-area: i;
 }
+
 .close {
-   width: 7px;
-   height: 7px;
-}
-.titleContainer{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   grid-area: t; 
-}
-.title{
-   word-wrap: break-word;
-}
-@media screen and (max-width: 1500px){
-   .todoList{
-      width: 50vw;
-      height: 5vh;
-   }
+  width: 7px;
+  height: 7px;
 }
 
-@media screen and (max-width: 1000px){
-   .todoList{
-      width: 60vw;
-      height: 5vh;
-   }
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: t;
 }
 
-@media screen and (max-width: 600px){
-   .todoList{
-      width: 70vw;
-      height: 5vh;
-   }
+.title {
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 1500px) {
+  .todoList {
+    width: 50vw;
+    height: 5vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .todoList {
+    width: 60vw;
+    height: 5vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .todoList {
+    width: 70vw;
+    height: 5vh;
+  }
 }

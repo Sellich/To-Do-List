@@ -11,27 +11,26 @@ import TodoTasks from './components/TodoLists/TodoList/TodoTasks/TodoTasks';
 
 
 function App() {
+  const dispatch = useDispatch()
 
-   const dispatch = useDispatch()
+  useEffect(() => {
+    dispatch(authMeThunk())
+  }, [])
 
-   useEffect(() => {
-      dispatch(authMeThunk())
-   }, [])
-
-   return (
-      <div className='app'>
-         <header className='header'>
-            <TodoHeader />
-         </header>
-         <main className="main">
-            <Routes>
-               <Route path='/' element={<Content />} />
-               <Route path='/login' element={<Login />} />
-               <Route path='/tasks' element={<TodoTasks />} />
-            </Routes>
-         </main>
-      </div>
-   );
+  return (
+    <div className='app'>
+      <header className='header'>
+        <TodoHeader />
+      </header>
+      <main className="main">
+        <Routes>
+          <Route path='/' element={<Content />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/tasks' element={<TodoTasks />} />
+        </Routes>
+      </main>
+    </div>
+  );
 }
 
 export default App;

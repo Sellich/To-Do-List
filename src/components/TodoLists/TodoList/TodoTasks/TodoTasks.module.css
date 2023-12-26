@@ -1,48 +1,55 @@
-.arrow{
-   width: 20px;
-   height: 20px;
+.arrow {
+  width: 20px;
+  height: 20px;
 }
+
 .arrow:hover {
-background-color: grey;
-border-radius: 6px;
+  background-color: grey;
+  border-radius: 6px;
 }
-.header{
-   grid-area: h;
-   display: grid;
-   grid-template-areas: "b t .";
-   margin: 10px;
-   min-width: 50vh;
+
+.header {
+  grid-area: h;
+  display: grid;
+  grid-template-areas: "b t .";
+  margin: 10px;
+  min-width: 50vh;
 
 }
-.back{
-   grid-area: b;
-   display: flex;
+
+.back {
+  grid-area: b;
+  display: flex;
 
 }
-.title{
-   display: flex;
-   justify-content: center;
-   grid-area: t;
+
+.title {
+  display: flex;
+  justify-content: center;
+  grid-area: t;
 }
-.create{
-   display: flex;
-   justify-content: center;
-   grid-area: i;
+
+.create {
+  display: flex;
+  justify-content: center;
+  grid-area: i;
 }
-.todoTasks{
-   display: grid;
-   grid-template-areas: 
-   ". h ."
-   ". i ."
-   ". t .";
-   grid-template-columns: 1fr 4fr 1fr;
- 
+
+.todoTasks {
+  display: grid;
+  grid-template-areas:
+    ". h ."
+    ". i ."
+    ". t .";
+  grid-template-columns: 1fr 4fr 1fr;
+
 }
-.tasks{
-   grid-area: t;
-   margin: 10px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+
+.tasks {
+  grid-area: t;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,28 +1,32 @@
-.input{
-   border-radius: 10px;
-}
-.form{
-   display: flex;
-   flex-direction: column;
-   border: 1px solid black;
-   border-radius: 10px;
-}
-.btn{
-   border-radius: 10px;
-   margin: 5px;
-}
-.img{
-   height: 5px;
-   width: 5px;
-}
-.input_close{
-   display: flex;
-   justify-content: space-between;
-}
-.close_wrapper{
-   display: flex;
-   align-items: start;
-   justify-content: end;
-   padding: 5px;
+.input {
+  border-radius: 10px;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.btn {
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.img {
+  height: 5px;
+  width: 5px;
+}
+
+.input_close {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close_wrapper {
+  display: flex;
+  align-items: start;
+  justify-content: end;
+  padding: 5px;
+}
